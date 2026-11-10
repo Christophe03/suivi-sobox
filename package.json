@@ -1,0 +1,23 @@
+{
+  "name": "suivi-sobox-plus",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Suivi des ventes et du stock SOBOX+ pour un partenaire distributeur. Application React, sans serveur : les données restent dans le navigateur.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:fichier-unique": "node scripts/build-single.mjs"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.25.0",
+    "vite": "^6.0.0"
+  }
+}
